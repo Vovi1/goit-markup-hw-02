@@ -1,0 +1,54 @@
+:root {
+  --navy-blue: #2e2f42;
+  --ocean: #404bbf;
+  --color-primary-600: #2e2f42;
+  --color-nav: #434455;
+  --color-hover-nav: #4d5ae5;
+  --color-hover-white: #ffffff;
+  --color-background-button: #f4f4fd;
+}
+/* .studio{
+  color: var(--ocean);
+} */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  color: var(--navy-blue);
+  line-height: 2;
+  background: "red";
+}
+
+.logo-title {
+  font-weight: 800;
+}
+.studio {
+  color: var(--ocean);
+  font-weight: 500;
+}
+
+.contact:hover {
+  color: var(--color-hover-nav);
+  
+}
+
+.button-labels {
+  color: var(--color-hover-nav);
+  cursor: pointer;
+  background-color: var(--color-background-button);
+  border: none;
+  font-weight: 500;
+}
+
+.button-labels:hover {
+  color: var(--color-hover-white);
+  background-color: var(--ocean);
+}
+.title-cards {
+  font-size: 16px;
+  font-weight: 500;
+}
+.card-contents {
+  font-size: 16px;
+  
+}
