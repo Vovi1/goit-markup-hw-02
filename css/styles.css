@@ -26,7 +26,7 @@ body {
 }
 
 .nav_link{
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -75,23 +75,10 @@ body {
 
 .link{
 color: var(--color-hover-ocean);
-
 }
 
 .link:focus{
   color: var(--ocean);
-}
-
-.contact {
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-nav);
-  text-decoration: none;
-}
-
-.contact:hover {
-  color: var(--color-hover-nav);
 }
 
 .list {
