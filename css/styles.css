@@ -39,6 +39,13 @@ body {
   color: var(--color-nav);
 }
 
+.nav_link_address:hover{
+  color: var(--ocean);
+}
+.nav_link_address:focus{
+  color: var(--ocean);
+}
+
 .nav_link:hover{
   color: var(--ocean);
 
