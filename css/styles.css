@@ -22,20 +22,20 @@ body {
   background-color: var(--color-hover-white);
 }
 .link{
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .nav_link{
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
+  font-style: normal;
   letter-spacing: 0.02em; 
+  font-size: 16px;
   color: var(--color-nav);
 }
 
-.nav-link:hover{
+.nav_link:hover{
   color: var(--ocean);
 
 }
