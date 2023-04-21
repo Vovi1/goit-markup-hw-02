@@ -1,13 +1,10 @@
 :root {
   --navy-blue: #2e2f42;
   --ocean: #404bbf;
-  --color-primary-600: #2e2f42;
   --color-nav: #434455;
   --color-hover-nav: #4d5ae5;
   --color-hover-white: #ffffff;
   --color-background-button: #f4f4fd;
-  --color-logo: #4d5ae5;
-  --color-span-logo: #2e2f42;
 }
 /* .studio{
   color: var(--ocean);
@@ -32,7 +29,7 @@ body {
   font-style: normal;
   letter-spacing: 0.02em; 
   font-size: 16px;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 
 .nav_link:hover{
@@ -44,7 +41,7 @@ body {
 }
 
 .sub-link {
-  color: var(--color-span-logo);
+  color: var(--navy-blue);
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -58,7 +55,7 @@ body {
 }
 
 .link_logo {
-  color: #4d5ae5;
+  color: var(--color-hover-nav);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
