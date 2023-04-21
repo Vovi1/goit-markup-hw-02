@@ -15,31 +15,46 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  color: var(--navy-blue);
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: var(--color-nav);
   line-height: 2;
+  background-color: var(--color-hover-white);
 }
-.sub-link{
+.link{
+  text-decoration:none;
+}
+.sub-link {
   color: var(--color-span-logo);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.link {
-  font-family: 'Raleway';
+.link{
+  text-decoration: none;
+}
+
+.link_logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none
+  
 }
+
 .studio {
   color: var(--ocean);
   font-weight: 500;
-  text-decoration: none
+  text-decoration: none;
 }
 
-.contact{
+.contact {
   text-decoration: none;
 }
 
@@ -47,11 +62,7 @@ body {
   color: var(--color-hover-nav);
 }
 
-.nav-link{
-  text-decoration: none;
-}
-
-.list{
+.list {
   list-style: none;
 }
 
@@ -73,5 +84,8 @@ body {
 }
 .card-contents {
   font-size: 16px;
-  
+}
+
+.section_one{
+  background-color: var(--navy-blue);
 }
