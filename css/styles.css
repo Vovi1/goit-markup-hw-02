@@ -27,12 +27,12 @@ body {
 
 .nav_link{
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5px;
-letter-spacing: 0.02em; 
-color :var(--color-nav);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em; 
+  color: var(--color-nav);
 }
 
 .nav-link:hover{
@@ -123,6 +123,5 @@ color: var(--color-hover-ocean);
 }
 
 .address_studio{
-   
-
+   font-style: normal;
 }
