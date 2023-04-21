@@ -6,6 +6,8 @@
   --color-hover-nav: #4d5ae5;
   --color-hover-white: #ffffff;
   --color-background-button: #f4f4fd;
+  --color-logo: #4d5ae5;
+  --color-span-logo: #2e2f42;
 }
 /* .studio{
   color: var(--ocean);
@@ -13,23 +15,44 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--navy-blue);
   line-height: 2;
-  background: "red";
+}
+.sub-link{
+  color: var(--color-span-logo);
 }
 
-.logo-title {
+.link {
+  font-family: 'Raleway';
   font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none
 }
 .studio {
   color: var(--ocean);
   font-weight: 500;
+  text-decoration: none
+}
+
+.contact{
+  text-decoration: none;
 }
 
 .contact:hover {
   color: var(--color-hover-nav);
-  
+}
+
+.nav-link{
+  text-decoration: none;
+}
+
+.list{
+  list-style: none;
 }
 
 .button-labels {
