@@ -24,6 +24,25 @@ body {
 .link{
   text-decoration:none;
 }
+
+.nav_link{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5px;
+letter-spacing: 0.02em; 
+color :var(--color-nav);
+}
+
+.nav-link:hover{
+  color: var(--ocean);
+
+}
+.nav_link:focus{
+  color: var(--ocean);
+}
+
 .sub-link {
   color: var(--color-span-logo);
   font-family: 'Roboto';
@@ -42,10 +61,10 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.17;      
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  
+  color: var(--color-hover-nav);
 }
 
 .studio {
@@ -54,7 +73,20 @@ body {
   text-decoration: none;
 }
 
+.link{
+color: var(--color-hover-ocean);
+
+}
+
+.link:focus{
+  color: var(--ocean);
+}
+
 .contact {
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-nav);
   text-decoration: none;
 }
 
@@ -88,4 +120,9 @@ body {
 
 .section_one{
   background-color: var(--navy-blue);
+}
+
+.address_studio{
+   
+
 }
