@@ -19,44 +19,43 @@ body {
   background-color: var(--color-hover-white);
 }
 
-.nav_link{
-  font-family: 'Roboto', sans-serif;
+.nav_link {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.02em; 
+  letter-spacing: 0.02em;
   font-size: 16px;
   color: var(--navy-blue);
 }
 
-.nav_link_address{
-  font-family: 'Roboto', sans-serif;
+.nav_link_address {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
   font-style: normal;
-  letter-spacing: 0.02em; 
+  letter-spacing: 0.02em;
   font-size: 16px;
   color: var(--color-nav);
 }
 
-.nav_link_address:hover{
+.nav_link_address:hover {
   color: var(--ocean);
 }
-.nav_link_address:focus{
+.nav_link_address:focus {
   color: var(--ocean);
 }
 
-.nav_link:hover{
+.nav_link:hover {
   color: var(--ocean);
-
 }
-.nav_link:focus{
+.nav_link:focus {
   color: var(--ocean);
 }
 
 .sub-link {
   color: var(--navy-blue);
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -64,7 +63,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.link{
+.link {
   text-decoration: none;
 }
 
@@ -73,7 +72,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;      
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -84,8 +83,7 @@ body {
   text-decoration: none;
 }
 
-
-.link:focus{
+.link:focus {
   color: var(--ocean);
 }
 
@@ -113,10 +111,34 @@ body {
   font-size: 16px;
 }
 
-.section_one{
+
+
+.address_studio {
+  font-style: normal;
+}
+.section_one {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
   background-color: var(--navy-blue);
 }
 
-.address_studio{
-   font-style: normal;
+.button_text{
+  background-color:#4D5AE5;
+  font-family: "Roboto";
+ font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+cursor: pointer;
+
+}
+.button_text:hover{
+  background-color: #404BBF;
+}
+.button_text:focus{
+   background-color: #404BBF;
 }
