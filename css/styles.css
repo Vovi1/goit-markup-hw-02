@@ -207,9 +207,8 @@ background-color: #ffffff;
   text-transform: uppercase;
 }
 
-.studio {
-  color: var(--ocean);
+.text_studio {
+  color: #f4f4fd ;
   font-weight: 500;
   text-decoration: none;
-  
-}
+  }
