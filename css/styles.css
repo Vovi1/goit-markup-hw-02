@@ -208,8 +208,8 @@ background-color: #ffffff;
 }
 
 .studio {
-  
+  color: var(--ocean);
   font-weight: 500;
   text-decoration: none;
- color:#f4f4fd ; 
+  
 }
