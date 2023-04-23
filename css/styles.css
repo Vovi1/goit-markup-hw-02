@@ -211,8 +211,8 @@ body {
   text-decoration: none;
 }
 
-.button-labels_list,
-.button-labels_list-two {
+.button-labels_list {
+  font-family: "Roboto", sans-serif ;
   color: #4d5ae5 ;
   cursor: pointer;
   background-color: var(--color-background-button);
@@ -229,3 +229,19 @@ body {
  color:#FFFFFF; 
  background-color: #404BBF;
 }
+
+.card-link-title{
+font-weight: 500;
+ font-size: 20px;
+ line-height: 1.2;
+  letter-spacing: 0.02em;
+  color:#2e2f42 ;
+}
+
+.card-link-paragraph{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em ;
+color:  #434455;
+}
+
