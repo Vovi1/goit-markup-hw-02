@@ -175,9 +175,10 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+   background-color: #FFFFFF;
 }
 .title_section_four{
-  background-color: #FFFFFF;
+  
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
