@@ -175,12 +175,11 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-   
 }
-.title_section_four{
-  background-color: #FFFFFF;
+.title{
+background-color: #ffffff;
 }
-.title_section_four{
+.title_section_four {
   
   font-weight: 500;
   font-size: 20px;
@@ -192,4 +191,25 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+ .foot_title{
+  background-color:#2e2f42;
+
+ }
+
+.link_logo {
+  color: var(--color-hover-nav);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.studio {
+  
+  font-weight: 500;
+  text-decoration: none;
+ color:#f4f4fd ; 
 }
