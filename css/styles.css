@@ -111,8 +111,6 @@ body {
   font-size: 16px;
 }
 
-
-
 .address_studio {
   font-style: normal;
 }
@@ -124,7 +122,7 @@ body {
   color: #ffffff;
   background-color: var(--navy-blue);
 }
-.title_section_one{
+.title_section_one {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -133,39 +131,61 @@ body {
   background-color: var(--navy-blue);
 }
 
-.button_text{
-  background-color:#4D5AE5;
-  font-family: "Roboto", sans-serif ;
- font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #ffffff;
-cursor: pointer;
-
+.button_text {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
 }
-.button_text:hover{
-  background-color: #404BBF;
+.button_text:hover {
+  background-color: #404bbf;
 }
-.button_text:focus{
-   background-color: #404BBF;
+.button_text:focus {
+  background-color: #404bbf;
 }
-.titil_section_two{
+.titil_section_two {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.description_section_two{
+.description_section_two {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.titil_section_three{
+.titil_section_three {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-   text-transform: capitalize;
-   color: #2e2f42 ;
-   
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.section_four {
+  background-color: #f4f4fd;
+}
+.titil_section_four {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.hide_title {
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.description_section_four {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
