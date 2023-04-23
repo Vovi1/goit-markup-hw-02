@@ -168,7 +168,7 @@ body {
 .section_four {
   background-color: #f4f4fd;
 }
-.title_section_four {
+.hide_title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
