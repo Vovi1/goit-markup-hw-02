@@ -176,11 +176,10 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.title{
-background-color: #ffffff;
+.title {
+  background-color: #ffffff;
 }
 .title_section_four {
-  
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -192,10 +191,9 @@ background-color: #ffffff;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
- .foot_title{
-  background-color:#2e2f42;
-
- }
+.foot_title {
+  background-color: #2e2f42;
+}
 
 .link_logo {
   color: var(--color-hover-nav);
@@ -207,8 +205,10 @@ background-color: #ffffff;
   text-transform: uppercase;
 }
 
-.text_studio {
-  color: #f4f4fd ;
+.studio {
   font-weight: 500;
   text-decoration: none;
-  }
+}
+.text_studio {
+  color: #f4f4fd;
+}
