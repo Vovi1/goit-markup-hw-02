@@ -147,7 +147,7 @@ body {
 .button_text:focus {
   background-color: #404bbf;
 }
-.titil_section_two {
+.title_section_two {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -158,7 +158,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.titil_section_three {
+.title_section_three {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -168,7 +168,7 @@ body {
 .section_four {
   background-color: #f4f4fd;
 }
-.titil_section_four {
+.title_section_four {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -176,7 +176,7 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.titil_section_four {
+.title_section_four {
   background-color: #ffffff;
   font-weight: 500;
   font-size: 20px;
