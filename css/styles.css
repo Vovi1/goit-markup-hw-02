@@ -206,14 +206,14 @@ body {
 }
 
 .studio {
-   color: #f4f4fd;
+  color: #f4f4fd;
   font-weight: 500;
   text-decoration: none;
 }
 
 .button-labels_list {
-  font-family: "Roboto", sans-serif ;
-  color: #4d5ae5 ;
+  font-family: "Roboto", sans-serif;
+  color: #4d5ae5;
   cursor: pointer;
   background-color: var(--color-background-button);
   border: none;
@@ -224,32 +224,41 @@ body {
 }
 
 .button-labels_list:hover,
-.button-labels_list:focus
-{
- color:#FFFFFF; 
- background-color: #404BBF;
+.button-labels_list:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
-.card-link-title{
-font-weight: 500;
- font-size: 20px;
- line-height: 1.2;
+.card-link-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  color:#2e2f42 ;
+  color: #2e2f42;
 }
 
-.card-link-paragraph{
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em ;
-color:  #434455;
+.card-link-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-.accent{
-  font-family: 'Roboto',sans-serif ;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
-color: #F4F4FD;
+.accent {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.sub_link_text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
